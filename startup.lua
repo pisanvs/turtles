@@ -1,8 +1,7 @@
 local functionTable = {}
 
 function functionTable.Minedown ()
-    term.clear()
-    shell.run('./lib/minedown')
+    shell.run('./lib/minedown.lua')
 end
 
 while turtle.getFuelLevel() < 2000 do
