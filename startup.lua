@@ -1,9 +1,9 @@
 term.clear()
 local functionTable = {}
 
-function functionTable.Minedown ()
+function functionTable.minedown ()
     term.clear()
-    shell.run('./lib/',debug.getinfo(1, "n").name,'')
+    shell.run('./lib/minedown')
 end
 
 while turtle.getFuelLevel() < 2000 do
