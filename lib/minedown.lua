@@ -1,2 +1,2 @@
 print('Minedown called')
-shell.run('../startup.lua')
+shell.run('../startup')

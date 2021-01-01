@@ -10,11 +10,13 @@ while turtle.getFuelLevel() < 2000 do
 end
 
 print('am done')
-print('enter command')
+while true do
+    print('enter command')
 
-local input = read()
-if functionTable[input] then
-    functionTable[input]()
-else
-    print("I don't know how to "..input.."!")
+    local input = read()
+    if functionTable[input] then
+        functionTable[input]()
+    else
+        print("I don't know how to "..input.."!\n")
+    end
 end
