@@ -1,5 +1,7 @@
-require('lib.minedown')
-local functionTable = {lib.minedown}
+function Minedown ()
+    shell.run('./lib/minedown')
+end
+local functionTable = {Minedown}
 
 while turtle.getFuelLevel() < 2000 do
     print('waiting for refuel, ',turtle.getFuelLevel(), ' out of 100')
