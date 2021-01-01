@@ -3,7 +3,7 @@ local functionTable = {}
 
 function functionTable.Minedown ()
     term.clear()
-    shell.run('./lib/minedown')
+    shell.run('./lib/',debug.getinfo(1, "n").name,'')
 end
 
 while turtle.getFuelLevel() < 2000 do
@@ -17,10 +17,8 @@ while true do
     print('enter command')
 
     local input = read()
-    print('yoy?')
-    local yoy = read()
     if functionTable[input] then
-        functionTable[input](yoy)
+        functionTable[input]()
     else
         print("I don't know how to "..input.."!\n")
     end
