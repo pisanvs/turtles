@@ -1,4 +1,3 @@
-term.clear()
 local functionTable = {}
 
 function functionTable.Minedown ()
