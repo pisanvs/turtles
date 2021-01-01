@@ -1,1 +1,2 @@
-return ('minedown called')
+print('Minedown called')
+shell.run('../startup.lua')
