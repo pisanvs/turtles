@@ -1,5 +1,9 @@
 {
     "Lua.diagnostics.disable": [
-        "undefined-global"
+        "undefined-global",
+        "redundant-parameter"
+    ],
+    "Lua.diagnostics.globals": [
+        "args"
     ]
 }

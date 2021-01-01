@@ -13,11 +13,14 @@ end
 
 print('am done')
 while true do
+    term.clear()
     print('enter command')
 
     local input = read()
+    print('yoy?')
+    local yoy = read()
     if functionTable[input] then
-        functionTable[input]()
+        functionTable[input](yoy)
     else
         print("I don't know how to "..input.."!\n")
     end
