@@ -1,4 +1,4 @@
-require('lib')
+require('lib.minedown')
 local functionTable = {lib.minedown}
 
 while turtle.getFuelLevel() < 2000 do
