@@ -1,4 +1,11 @@
-while true do
-    print('hahalol')
+print('How many blocks?')
+input = read()
+
+local i = 0
+while i < input do
+    turtle.digDown()
+    turtle.down()
+    i = i+1
 end
+
 shell.run('../startup')
