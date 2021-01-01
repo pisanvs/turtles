@@ -1,7 +1,7 @@
 term.clear()
 local functionTable = {}
 
-function functionTable.minedown ()
+function functionTable.Minedown ()
     term.clear()
     shell.run('./lib/minedown')
 end
