@@ -1,4 +1,4 @@
-print('Minedown called')
-turtle.turnLeft()
-turtle.turnLeft()
+while true do
+    print('hahalol')
+end
 shell.run('../startup')
