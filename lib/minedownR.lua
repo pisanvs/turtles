@@ -8,4 +8,4 @@ while i < tonumber(message) do
     i = i+1
 end
 
-shell.run('../startup')
+shell.run('../startupR')

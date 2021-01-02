@@ -1,7 +1,7 @@
 local functionTable = {}
 
 function functionTable.Minedown ()
-    shell.run('./lib/minedown.lua')
+    shell.run('./lib/minedownR.lua')
 end
 
 while turtle.getFuelLevel() < 2000 do
@@ -13,6 +13,7 @@ rednet.open('left')
 
 local id, message = rednet.receive()
 
+rednet.broadcast('[PISANVS] Enter command')
 if functionTable[message] then
     functionTable[message]()
 else
