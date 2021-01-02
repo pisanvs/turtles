@@ -4,6 +4,10 @@ function functionTable.minedown ()
     shell.run('./lib/minedown.lua')
 end
 
+function functionTable.stripmine ()
+    shell.run('./lib/stripmine.lua')
+end
+
 while turtle.getFuelLevel() < 2000 do
     print('waiting for refuel, ',turtle.getFuelLevel(), ' out of 100')
     turtle.refuel(1)
