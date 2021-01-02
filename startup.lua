@@ -11,6 +11,7 @@ end
 
 print('am done')
 while true do
+    term.clear()
     print('enter command')
 
     local input = read()
