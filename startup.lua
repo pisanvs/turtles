@@ -1,6 +1,6 @@
 local functionTable = {}
 
-function functionTable.Minedown ()
+function functionTable.minedown ()
     shell.run('./lib/minedown.lua')
 end
 
