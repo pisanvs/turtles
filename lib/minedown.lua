@@ -2,7 +2,7 @@ print('How many blocks?')
 input = read()
 
 local i = 0
-while i < input do
+while i < tonumber(input) do
     turtle.digDown()
     turtle.down()
     i = i+1
